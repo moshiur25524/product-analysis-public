@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <div className='home'>
             <div>
+               
                 <h1>Enjoy Time With Your Loving Car</h1>
                 <p>
 Digitization, increasing automation, and new business models have revolutionized other industries, and automotive will be no exception. These forces are giving rise to four disruptive technology-driven trends in the automotive sector: diverse mobility, autonomous driving, electrification, and connectivity.</p>

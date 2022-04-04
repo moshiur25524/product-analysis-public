@@ -5,11 +5,17 @@
     text-decoration: none;
     padding: 5px 10px;
 }
-.header{
+.header-link{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: aliceblue;
     width: auto;
     height: 80px;
+    padding: 0 15px;
 }

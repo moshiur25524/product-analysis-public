@@ -1,10 +1,15 @@
 # Getting Started with Create React App
 
+Name of the Project: Car House
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## All About the Project
 
-In the project directory, you can run:
+* firstly , A navBar is created who contain Home , Review, DashBoard, Blogs and About Componets
+* then, Home Page is designed with a picture of a car and some article of the car shop.
+* A couple of Review card is implemented to show the client name and his fedBack.
+* Others Components like dashboard which contain 2 chart and a blogs and About page.
 
 ### `npm start`
 
