@@ -1,9 +1,10 @@
 import React from 'react';
+import LineChart from '../LineChart/LineChart'
 
 const DashBoard = () => {
     return (
         <div>
-            <h1>This is a DashBoard</h1>
+            <LineChart></LineChart>
         </div>
     );
 };
