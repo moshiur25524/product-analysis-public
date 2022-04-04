@@ -1,0 +1,11 @@
+.error img{
+    height: 100%;
+    width: 100%;
+   
+}
+h2{
+    color: tomato;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
