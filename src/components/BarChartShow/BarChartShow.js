@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
 
 const DashBoard = () => {
     const data = [
@@ -43,9 +43,9 @@ const DashBoard = () => {
     return (
         <div>
 
-                <h2 style={{ textAlign: 'center', color: 'tomato' }}>Month Wise Sell</h2>
+                <h2 style={{ textAlign: 'center', color: 'tomato' }}>Investment VS revenue</h2>
             
-                <LineChart
+                <BarChart
                 width={500}
                 height={300}
                 data={data}
@@ -61,10 +61,10 @@ const DashBoard = () => {
                     <YAxis></YAxis>
                     <Tooltip></Tooltip>
                     <Legend></Legend>
-                    <Line type="monotone" dataKey="investment" stroke="#8884d8" activeDot={{ r: 8 }} />
-                    <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
+                    <Bar type="monotone" dataKey="investment" fill="#8884d8" />
+                    <Bar type="monotone" dataKey="revenue" fill="#82ca9d" />
 
-                </LineChart>
+                </BarChart>
            
         </div>
     );
