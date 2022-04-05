@@ -1,9 +1,14 @@
 import React from 'react';
+import './Review.css'
 
-const Review = () => {
+const Review = ({review}) => {
+    const {person, name, details, rating} = review;
     return (
-        <div>
-            <h1>this is Review Page</h1>
+        <div className='review'>
+            <h3>Customer: {person}</h3>
+            <p>car: {name}</p>
+            <p><small>{details}</small></p>
+            <p><small>Rating: {rating} stars</small></p>
         </div>
     );
 };

@@ -1,0 +1,56 @@
+[
+    {
+      "id":1,
+      "person":"Moshiur",
+      "name":"antique",
+      "details":"It is the latest version of this era",
+      "price":89000,
+      "rating": 4,
+      "img":"https://cdn.pixabay.com/photo/2018/01/18/20/56/auto-3091234_960_720.jpg"
+    },
+    {
+      "id":2,
+      "person":"Hafizur",
+      "name":"auto_motive",
+      "details":"Handsome car for an Honest man",
+      "price":90000,
+      "rating": 3,
+      "img":"https://cdn.pixabay.com/photo/2021/03/07/23/51/car-6077773_960_720.jpg"
+    },
+    {
+      "id":3,
+      "person":"Osman",
+      "name":"bmw",
+      "details":"Easy to see, deficult to buy.But you deserve one of it.",
+      "price":91000,
+      "rating": 4,
+      "img":"https://cdn.pixabay.com/photo/2020/10/18/16/40/bmw-5665352_960_720.jpg"
+    },
+    {
+      "id":4,
+      "person":"Nahid",
+      "name":"caymon",
+      "details":"Luxurious car you ever seen",
+      "price":92000,
+      "rating": 2,
+      "img":"https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_960_720.jpg"
+    },
+    {
+      "id":5,
+      "person":"Sayma",
+      "name":"classic",
+      "details":"spent your most valuable time with your partner by travelling",
+      "price":93000,
+      "rating": 5,
+      "img":"https://cdn.pixabay.com/photo/2020/09/06/07/37/car-5548242_960_720.jpg"
+    },
+    {
+      "id":6,
+      "person":"Salehin",
+      "name":"ferrari",
+      "details":"Though you are the lover of traveller, our car is the helper.",
+      "price":94000,
+      "rating": 3,
+      "img":"https://cdn.pixabay.com/photo/2018/04/07/16/30/auto-3298890_960_720.jpg"
+    }
+  ]
